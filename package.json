@@ -25,9 +25,9 @@
     "vite-plugin-electron": "^0.11.1"
   },
   "dependencies": {
-    "@taquito/rpc": "^17.0.0",
-    "@taquito/taquito": "^17.0.0",
-    "@taquito/tzip16": "^17.0.0",
+    "@taquito/rpc": "^15.1.0",
+    "@taquito/taquito": "^15.1.0",
+    "@taquito/tzip16": "^15.1.0",
     "@tezos-domains/core": "^1.25.1",
     "@tezos-domains/taquito-client": "^1.25.1",
     "crypto-browserify": "^3.12.0",
