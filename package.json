@@ -1,0 +1,41 @@
+{
+  "name": "tezos-domains-resolution",
+  "version": "1.0.0",
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:8080/"
+    }
+  },
+  "description": "",
+  "main": "dist/background/index.cjs",
+  "scripts": {
+    "dev": "vite",
+    "dev:force": "vite --force",
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^4.0.2",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "electron": "^20.3.0",
+    "patch-package": "^7.0.0",
+    "vite": "^4.0.4",
+    "vite-plugin-electron": "^0.11.1"
+  },
+  "dependencies": {
+    "@taquito/rpc": "^17.0.0",
+    "@taquito/taquito": "^17.0.0",
+    "@taquito/tzip16": "^17.0.0",
+    "@tezos-domains/core": "^1.25.1",
+    "@tezos-domains/taquito-client": "^1.25.1",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "vue": "^2.7.14"
+  }
+}
